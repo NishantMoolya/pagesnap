@@ -7,7 +7,7 @@ export default function Header() {
       </div>
       <span className="font-semibold text-base tracking-tight text-[var(--text)]">PageSnap</span>
       <span className="hidden sm:block text-xs font-mono text-[var(--muted)] ml-auto">
-        PDF &amp; DOCX → JPG
+        PDF → JPG
       </span>
     </header>
   );

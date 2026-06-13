@@ -39,8 +39,7 @@ export default function DropZone() {
           Drop your document here
         </p>
         <p className="text-sm text-[var(--muted)] mb-6 leading-relaxed">
-          Supports <strong className="text-[var(--text)]">PDF</strong> and{" "}
-          <strong className="text-[var(--text)]">DOCX</strong> files.
+          Supports <strong className="text-[var(--text)]">PDF</strong> files.
           <br className="hidden sm:block" />
           Select pages and export them as JPG images.
         </p>
@@ -56,7 +55,7 @@ export default function DropZone() {
           ref={inputRef}
           type="file"
           className="hidden"
-          accept=".pdf,.docx,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+          accept=".pdf,application/pdf"
           onChange={(e) => handleFiles(e.target.files)}
         />
       </div>
